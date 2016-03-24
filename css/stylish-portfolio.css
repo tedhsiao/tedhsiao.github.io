@@ -196,6 +196,7 @@ hr.small {
 
 .portfolio {
     padding: 50px 0;
+    background-color: #6090F0;
 }
 
 .portfolio-item {
@@ -236,4 +237,5 @@ hr.small {
 
 footer {
     padding: 100px 0;
+    background-color: #C0C0C0;
 }
