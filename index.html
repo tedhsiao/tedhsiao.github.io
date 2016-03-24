@@ -50,6 +50,9 @@
                 <a href="#services" onclick = $("#menu-close").click(); >Skills</a>
             </li>
             <li>
+                <a href="#blog" onclick = $("#menu-close").click(); >Blog</a>
+            </li>
+            <li>
                 <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
             </li>
             <li>
@@ -61,10 +64,14 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
+            <div><img src="img/ted.png" class="img-circle"></div>
             <h1>Ted Hsiao</h1>
             <h3>Full Stack Software Engineer</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <a href="#about" class="btn btn-lg btn-dark">Find Out More</a>
+            &nbsp;
+            <a href="#contact" class="btn btn-lg btn-dark">Contact Me</a>
+<!--             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a> -->
         </div>
     </header>
 
@@ -74,7 +81,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About Me</h2>
-                    <p class="lead">Hi, my name is Ted.  I am a full-stack software engineer with a focus in Javascript, Node.js, Angular, MySQL, and many other web development technologies and frameworks. I enjoy using software to solve complex problems, designing algorithms, and building apps to enhanced peoples' everyday lives.  I am currently seeking for a full-time software engineer position around the Silicon Valley, feel free to contact me!</p>
+                    <p class="lead">Hi, my name is Ted.  I am a full-stack software engineer with a focus in Javascript, Node.js, Angular, MySQL, and many other web development technologies and frameworks. I enjoy using software to solve complex problems, designing algorithms, and building apps to enhance the everyday lives of people.  I am currently seeking for a full-time software engineer position around the Silicon Valley, feel free to contact me!</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -215,10 +222,10 @@
     </section>
 
     <!-- Callout -->
-    <aside class="callout">
+    <aside id="blog" class="callout">
         <div class="text-vertical-center">
-            <h1>Javascript is Sexy</h1>
-            <a target="_blank" href="https://medium.com/@abc810221"><p class="lead">Click Here To Learn Some Programming!</p></a>
+            <h1>Learn Some Javascript</h1>
+            <a target="_blank" href="https://medium.com/@abc810221"><p class="lead">Click out my blog!</p></a>
         </div>
     </aside>
 
@@ -231,64 +238,74 @@
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="portfolio-item">
-                                <a target="_blank" href="https://testthesis.herokuapp.com/">
-                                    <img class="img-portfolio img-responsive" src="img/portfolioio.png">
-                                </a>
+                            <div class="card">
+                              <img class="card-img-top" src="img/portfolioio.png" alt="Card image cap" width="360px">
+                              <div class="card-block">
+                                <h4 class="card-title">Portfol.io</h4>
+                                <p class="card-text">Virtual stock trading web-app with sport fantasy gaming mechanism.</p>
+                                <a target="_blank" href="https://testthesis.herokuapp.com/" class="btn btn-primary">Check out app</a>
+                              </div>
                             </div>
-                            <b>Portfol.io</b>
-                            <p>Virtual stock trading web-app with sport fantasy gaming mechanism.</p>
                         </div>
+
                         <div class="col-md-4">
-                            <div class="portfolio-item">
-                                <a target="_blank" href="http://learnitnowlegacy.herokuapp.com/">
-                                    <img class="img-portfolio img-responsive" src="img/learnitnow.png">
-                                </a>
+                            <div class="card">
+                              <img class="card-img-top" src="img/learnitnow.png" alt="Card image cap" width="360px">
+                              <div class="card-block">
+                                <h4 class="card-title">Learn It Now</h4>
+                                <p class="card-text">A one-on-one video chat tutoring platform for mentors and tutors to host lessons.</p>
+                                <a target="_blank" href="http://learnitnowlegacy.herokuapp.com/" class="btn btn-primary">Check out app</a>
+                              </div>
                             </div>
-                            <b>Learn It Now</b>
-                            <p>A one-on-one video chat tutoring platform for mentors and tutors to host lessons.</p>
                         </div>
                         
                         <div class="col-md-4">
-                            <div class="portfolio-item">
-                                <a target="_blank" href="http://play-list.herokuapp.com/">
-                                    <img class="img-portfolio img-responsive" src="img/Playlist.png">
-                                </a>
+                            <div class="card">
+                              <img class="card-img-top" src="img/playlist.png" alt="Card image cap" width="360px">
+                              <div class="card-block">
+                                <h4 class="card-title">Playlist</h4>
+                                <p class="card-text">Web-app with a collaborative, real-time Youtube playlist and live chat functionality.</p>
+                                <a target="_blank" href="http://play-list.herokuapp.com/" class="btn btn-primary">Check out app</a>
+                              </div>
                             </div>
-                            <b>Playlist</b>
-                            <p>Web-app with a collaborative, real-time Youtube playlist and live chat functionality.</p>
                         </div>
 
                         <div class="col-md-12">
                             <br></br><br></br>
                         </div>
                         <div class="col-md-4">
-                            <div class="portfolio-item">
-                                <a target="_blank" href="http://mvp-demo-ted.herokuapp.com/">
-                                    <img class="img-portfolio img-responsive" src="img/mvp.png">
-                                </a>
+                            <div class="card">
+                              <img class="card-img-top" src="img/mvp.png" alt="Card image cap" width="360px">
+                              <div class="card-block">
+                                <h4 class="card-title">Underpaid</h4>
+                                <p class="card-text">App that allows users to compare their salary to national average with searchable job listings.</p>
+                                <a target="_blank" href="http://mvp-demo-ted.herokuapp.com/" class="btn btn-primary">Check out app</a>
+                              </div>
                             </div>
-                            <b>Underpaid</b>
-                            <p>App that allows users to compare their salary to national average with searchable job listings.</p>
                         </div>
+
                         <div class="col-md-4">
-                            <div class="portfolio-item">
-                                <a target="_blank" href="https://fourtacktowe.herokuapp.com/">
-                                    <img class="img-portfolio img-responsive" src="img/four.png">
-                                </a>
+                            <div class="card">
+                              <img class="card-img-top" src="img/four.png" alt="Card image cap" width="360px">
+                              <div class="card-block">
+                                <h4 class="card-title">Four Tack Towe</h4>
+                                <p class="card-text">Four in a row game similar to Tic-Tac-Toe</p>
+                                <a target="_blank" href="https://fourtacktowe.herokuapp.com/" class="btn btn-primary">Check out app</a>
+                              </div>
                             </div>
-                            <b>Four Tack Towe</b>
-                            <p>Four in a row game similar to Tic-Tac-Toe</p>
                         </div>
+
                         <div class="col-md-4">
-                            <div class="portfolio-item">
-                                <a target="_blank" href="https://d3watchout.herokuapp.com/">
-                                    <img class="img-portfolio img-responsive" src="img/watchout.png">
-                                </a>
+                            <div class="card">
+                              <img class="card-img-top" src="img/watchout.png" alt="Card image cap" width="360px">
+                              <div class="card-block">
+                                <h4 class="card-title">Watch Out!</h4>
+                                <p class="card-text">An Asteroid game built with D3.</p>
+                                <a target="_blank" href="https://d3watchout.herokuapp.com/" class="btn btn-primary">Check out app</a>
+                              </div>
                             </div>
-                            <b>Watch Out!</b>
-                            <p>An Asteroid game built with D3.</p>
                         </div>
+
                     <!-- /.row (nested) -->
                     <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
                 </div>
@@ -299,44 +316,34 @@
         <!-- /.container -->
     </section>
 
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>The buttons below are impossible to resist.</h3>
-                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
-                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
-            </div>
-        </div>
-    </aside>
-
     <!-- Footer -->
     <footer id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Ted Hsiao</strong>
-                    </h4>
-                    <p>Santa Clara</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (408) 373-2927</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:ted.hsiao@hackerdojo.com">Ted.hsiao@foslabs.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a target="_blank" href="https://github.com/abc810221"><i class="fa fa-github fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.linkedin.com/in/hsiaoted"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.facebook.com/abc810221"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
+                        <p class="myname"><strong>Ted Hsiao</strong>
+                        </p>
+                        <ul class="list-unstyled">
+                            <li class="info">Los Altos, CA</li>
+                            <li class="info"><i class="fa fa-phone fa-fw"></i> (408) 373-2927</li>
+                            <li  class="info"><i class="fa fa-envelope-o fa-fw info"></i> <a href="mailto:ted.hsiao@hackerdojo.com">Ted.hsiao@foslabs.com</a>
+                            </li>
+                        </ul>
+                        <br>
+                        <ul class="list-inline">
+                            <li>
+                                <a target="_blank" href="https://github.com/abc810221"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.linkedin.com/in/hsiaoted"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.facebook.com/abc810221"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            </li>
+                        </ul>
+<!--                     <div class="col-md-6">
+                
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -379,6 +386,7 @@
         });
     });
     </script>
+
 
 </body>
 
