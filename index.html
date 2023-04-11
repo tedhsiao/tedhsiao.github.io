@@ -21,13 +21,6 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
@@ -47,14 +40,11 @@
                 <a href="#about" onclick = $("#menu-close").click(); >About</a>
             </li>
             <li>
-                <a href="#services" onclick = $("#menu-close").click(); >Skills</a>
+                <a href="#skills" onclick = $("#menu-close").click(); >Skills</a>
             </li>
-            <li>
-                <a href="#blog" onclick = $("#menu-close").click(); >Blog</a>
-            </li>
-            <li>
+            <!-- <li>
                 <a href="#portfolio" onclick = $("#menu-close").click(); >Portfolio</a>
-            </li>
+            </li> -->
             <li>
                 <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
             </li>
@@ -64,9 +54,9 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <div><img src="img/ted.png" class="img-circle"></div>
+            <div><img src="img/profile.jpeg" width="150px" class="img-circle"></div>
             <h1>Ted Hsiao</h1>
-            <h3>Full Stack Software Engineer</h3>
+            <h3>Front End Software Engineer</h3>
             <br>
             <a href="#about" class="btn btn-lg btn-dark">Find Out More</a>
             &nbsp;
@@ -81,64 +71,85 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About Me</h2>
-                    <p class="lead">Hi, my name is Ted.  I am a full-stack software engineer with a focus in Javascript, Node.js, Angular, MySQL, and many other web development technologies and frameworks. I enjoy using software to solve complex problems, designing algorithms, and building apps to enhance the everyday lives of people.  I am currently seeking for a full-time software engineer position around the Silicon Valley, feel free to contact me!</p>
+                    <p class="lead">
+                        Hi, my name is Ted.  I am a full-stack software engineer with a focus in front end development, 
+                        component design system, and accessibility. I have extensive experience building applications with Node.js, 
+                        React, Angular, Mongo, and MySQL. I enjoy exploring new technologies while simultaneously maintaining 
+                        a strong handle on CS fundamentals.</p>
                 </div>
             </div>
-            <!-- /.row -->
         </div>
 
         <hr>
-        <!-- /.container -->
         <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <div class="col-md-4 col-sm-6">
-                        <h2>Education</h2>
-                        <b class="lead">
-                            Hack Reactor 
-                        </b>
-                        <p>Advanced Software Engineering Immersive Program (2016)</p>
-                        <hr class="large">
-                        <b class="lead">
-                            UC Santa Cruz 
-                        </b>
-                        <p>B.S. in Technology and Information Management (2010-2013)</p>
-                        <hr class="large">
-                    </div>
-                    <div class="col-md-1 col-sm-6">
-                        <br><br><br><br>
-                        <img src="img/hack-reactor-logo.png" width="75px">
-                        <br><br><br><br>
-                        <img src="img/ucsc.png" width="75px">
-                    </div>
-                    <div class="col-md-1 col-sm-6">
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <h2>Past Experience</h2>
-                        <b class="lead">
-                            Morgan Stanley 
-                        </b>
-                        <p>Financial Advisor (2014-2016)</p>
-                        <br>
-                        <hr class="large">
-                        <b class="lead">
-                            Porsche Taiwan
-                        </b>
-                        <p>IT & ADP Support (2014)</p>
-                        <hr class="large">
-                    </div>
-                    <div class="col-md-1 col-sm-6">
-                        <br><br><br>
-                        <img src="img/ms.png" width="75px">
-                        <br><br><br>
-                        <img src="img/porsche.png" width="75px">
-                    </div>
-                    <div class="col-md-1 col-sm-6">
-                    </div>
-
+            <div class="col-lg-12 text-center">
+                <h2>Experiences</h2>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-10">
+                    <h4>Coupa Software</h4>
+                    <p>Lead Software Engineer (UX Platform) Jan 2020 - Present</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/coupa.jpg" width="85px"/>
                 </div>
             </div>
-            <!-- /.row -->
+            <div class="col-md-6">
+                <div class="col-md-10">
+                    <h4>Netskope</h4>
+                    <p>Senior Software Engineer (UI) Aug 2017 - Jan 2020</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/netskope.avif" width="85px"/>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-10">
+                    <h4>Rambus</h4>
+                    <p>Front-End Engineer July 2016 - Aug 2017</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/rambus.jpg" width="74px"/>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-10">
+                    <h4>Morgan Stanley</h4>
+                    <p>Financial Advisor May 2014 - Jan 2016</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/ms.png" width="75px">
+                </div>
+            </div>
+            <div class="col-md-6" style="margin-top: 20px">
+                <div class="col-md-10">
+                    <h4>Porsche Taiwan</h4>
+                    <p>IT Specialist July 2013 - Dec 2014</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/porsche.png" width="75px">
+                </div>
+            </div>
+            <div class="col-md-6" style="margin-top: 20px">
+                <div class="col-md-10">
+                    <h4>Wintec Industries</h4>
+                    <p>Web Development & Marketing Intern June 2011 - May 2012</p>
+                </div>
+                <div class="col-md-2">
+                    <img src="img/wintec.png" width="75px">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="col-lg-12 text-center">
+                <h2>Education</h2>
+            </div>
+            <div class="text-center">
+                <img src="img/ucsc.png" width="75px">
+                <h4>UC Santa Cruz</h4>
+                <p>Technology and Information Management</p>
+            </div>
         </div>
     </section>
 
@@ -151,6 +162,16 @@
                     <h2>Skills</h2>
                     <hr class="small">
                     <div class="row">
+                        <div class="col-md-2 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-stack-1x text-primary"><img src="img/react.png" width="100px"></i>
+                            </span>
+                                <h4>
+                                    <strong>React</strong>
+                                </h4>
+                            </div>
+                        </div>
                         <div class="col-md-2 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
@@ -184,16 +205,6 @@
                         <div class="col-md-2 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-stack-1x text-primary"><img src="img/backbone.png" width="100px"></i>
-                            </span>
-                                <h4>
-                                    <strong>Backbone.js</strong>
-                                </h4>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
                                 <i class="fa fa-stack-1x text-primary"><img src="img/mongodb.png" width="100px"></i>
                             </span>
                                 <h4>
@@ -221,16 +232,8 @@
         <!-- /.container -->
     </section>
 
-    <!-- Callout -->
-    <aside id="blog" class="callout">
-        <div class="text-vertical-center">
-            <h1>Learn Some Javascript</h1>
-            <a target="_blank" href="https://medium.com/@abc810221"><p class="lead">Check out my blog!</p></a>
-        </div>
-    </aside>
-
     <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <!-- <section id="portfolio" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -254,14 +257,14 @@
                               <div class="card-block">
                                 <h4 class="card-title">Learn It Now</h4>
                                 <p class="card-text">A one-on-one video chat tutoring platform for mentors and tutors to host lessons.</p>
-                                <a target="_blank" href="http://learnitnowlegacy.herokuapp.com/" class="btn btn-primary">Check out app</a>
+                                <a target="_blank" href="http://learnitnowapp.herokuapp.com/" class="btn btn-primary">Check out app</a>
                               </div>
                             </div>
                         </div>
                         
                         <div class="col-md-4">
                             <div class="card">
-                              <img class="card-img-top" src="img/playlist.png" alt="Card image cap" width="360px">
+                              <img class="card-img-top" src="img/playlistsite.png" alt="Card image cap" width="360px">
                               <div class="card-block">
                                 <h4 class="card-title">Playlist</h4>
                                 <p class="card-text">Web-app with a collaborative, real-time Youtube playlist and live chat functionality.</p>
@@ -305,16 +308,10 @@
                               </div>
                             </div>
                         </div>
-
-                    <!-- /.row (nested) -->
-                    <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
-    </section>
+    </section> -->
 
     <!-- Footer -->
     <footer id="contact">
@@ -324,15 +321,15 @@
                         <p class="myname"><strong>Ted Hsiao</strong>
                         </p>
                         <ul class="list-unstyled">
-                            <li class="info">Los Altos, CA</li>
-                            <li class="info"><i class="fa fa-phone fa-fw"></i> (408) 373-2927</li>
-                            <li  class="info"><i class="fa fa-envelope-o fa-fw info"></i> <a href="mailto:ted.hsiao@hackerdojo.com">Ted.hsiao@foslabs.com</a>
+                            <li class="info">Fremont, CA</li>
+                            <li class="info"><i class="fa fa-phone fa-fw"></i> (408) 306-1483</li>
+                            <li  class="info"><i class="fa fa-envelope-o fa-fw info"></i> <a href="mailto:ted.hsiao@hackerdojo.com">thsiao1992@gmail.com</a>
                             </li>
                         </ul>
                         <br>
                         <ul class="list-inline">
                             <li>
-                                <a target="_blank" href="https://github.com/abc810221"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                                <a target="_blank" href="https://github.com/tedhsiao"><i class="fa fa-github fa-fw fa-3x"></i></a>
                             </li>
                             <li>
                                 <a target="_blank" href="https://www.linkedin.com/in/hsiaoted"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
